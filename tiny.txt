@@ -1,0 +1,14 @@
+void main() {
+    int num;
+    int result;
+
+    num = input(); // Read a number from the user
+
+    result = num % 2; // Compute the remainder when divided by 2
+
+    if (result == 0) {
+        output(1); // Output 1 for even
+    } else {
+        output(0); // Output 0 for odd
+    }
+}
